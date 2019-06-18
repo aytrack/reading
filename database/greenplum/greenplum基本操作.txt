@@ -1,0 +1,6 @@
+## Greenplum基本操作
+
+#### 启动
+通过`gpstart`来启动已经通过`gpinitsystem`初始化过的并且通过`gpstop`停止的greenplum数据库，此命令启动所有greenplum集群中的Postgresql实例。启动各进程是并行。
+在master节点执行命令：
+```$ gpstart ```
